@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CHAT ROOM !</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header>
+    <h1>CHAT ROOM !</h1>
+  </header>
+  
+  <section class="chat">
+    <div class="messages">
+     
+    </div>
+    <div class="user-inputs">
+      <form action="process.php?task=write" method="POST">
+        <input type="text" name="author" id="author" placeholder="Nickname ?">
+        <input type="text" id="content" name="content" placeholder="Tapez ici votre message !">
+        <button type="submit" id="submit">🔥 Send !</button>
+      </form>
+    </div>
+  </section>
+  <script src="js/app.js"></script>
+</body>
+</html>
